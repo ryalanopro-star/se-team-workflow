@@ -1,1 +1,1 @@
-function login(username, password) { return username && password; }
+function login(username, password) { return username && password ? "Authenticated" : "Denied"; }
