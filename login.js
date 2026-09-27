@@ -1,1 +1,1 @@
-function login(username, password) { return username && password ? "Login successful" : "Login failed"; }
+function login(username, password) { return username && password ? "Authenticated" : "Denied"; }
